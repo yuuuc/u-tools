@@ -1,0 +1,9 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-typescript"],
+  "plugins": [
+    [
+      // 与 babelHelpers: 'runtime' 配合使用
+      "@babel/plugin-transform-runtime"
+    ]
+  ]
+}
